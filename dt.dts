@@ -12007,12 +12007,11 @@
 		};
 
 		regulator@13 {
-			compatible = "regulator-fixed-sync";
+			compatible = "regulator-fixed";
 			reg = <0xd>;
 			regulator-name = "vdd-fan";
 			regulator-min-microvolt = <0x4c4b40>;
 			regulator-max-microvolt = <0x4c4b40>;
-			gpio = <0xea 0x4 0x0>;
 			linux,phandle = <0xef>;
 			phandle = <0xef>;
 		};
