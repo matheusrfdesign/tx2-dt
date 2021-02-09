@@ -8595,7 +8595,7 @@
 			pinctrl-9 = <0x7d>;
 			pinctrl-10 = <0x7e>;
 			pinctrl-11 = <0x7f>;
-			status = "okay";
+			status = "disabled";
 			fb_reserved = <0x81>;
 			iommu-direct-regions = <0x80 0x81 0x82>;
 			nvidia,dc-flags = <0x1>;
