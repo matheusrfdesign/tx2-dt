@@ -1262,6 +1262,7 @@
 
 		ina3221x@42 {
 			compatible = "ti,ina3221x";
+                        status = "disabled";
 			reg = <0x42>;
 			ti,trigger-config = <0x7003>;
 			ti,continuous-config = <0x7c07>;
@@ -1290,6 +1291,7 @@
 
 		ina3221x@43 {
 			compatible = "ti,ina3221x";
+                        status = "disabled";
 			reg = <0x43>;
 			ti,trigger-config = <0x7003>;
 			ti,continuous-config = <0x7c07>;
@@ -1318,6 +1320,7 @@
 
 		gpio@74 {
 			compatible = "ti,tca9539";
+                        status = "disabled";
 			reg = <0x74>;
 			gpio-controller;
 			#gpio-cells = <0x2>;
@@ -1336,6 +1339,7 @@
 		gpio@77 {
 			compatible = "ti,tca9539";
 			reg = <0x77>;
+                        status = "disabled";
 			gpio-controller;
 			#gpio-cells = <0x2>;
 			vcc-supply = <0x26>;
